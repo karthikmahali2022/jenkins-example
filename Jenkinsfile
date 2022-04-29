@@ -34,5 +34,5 @@ pipeline {
             echo 'I will always say Hello again!'
             emailext attachLog: true, body: 'Build failed', presendScript: 'echo "Email Success"', subject: 'Build failed', to: 'gcpdemouser2022@gmail.com'
         }
-    }'
+    }
 }
