@@ -32,7 +32,7 @@ pipeline {
     post { 
         always { 
             echo 'I will always say Hello again!'
-            emailext attachLog: true, body: 'Build failed', presendScript: 'echo "Email Success"', subject: 'Build failed', to: 'karthikmahali2022@gmail.com'
+            emailext attachLog: true, body: 'Build failed', presendScript: 'echo "Email Success"', subject: 'Build failed', to: 'karthikmahali@gmail.com'
         }
     }
 }
